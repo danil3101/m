@@ -1,0 +1,16 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Canvas" transform="translate(-1106 -50)">
+                    <g id="russia">
+                      <g id="Oval">
+                        <use xlink:href="#path0_fill_russia" transform="translate(1106 50)" fill="#F0F0F0" /> </g>
+                      <g id="Shape">
+                        <use xlink:href="#path1_fill_russia" transform="translate(1106 66.3044)" fill="#0052B4" /> </g>
+                      <g id="Shape">
+                        <use xlink:href="#path2_fill_russia" transform="translate(1107.55 83.6956)" fill="#D80027" /> </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <path id="path0_fill_russia" d="M 25 50C 38.8071 50 50 38.8071 50 25C 50 11.1929 38.8071 0 25 0C 11.1929 0 0 11.1929 0 25C 0 38.8071 11.1929 50 25 50Z" />
+                    <path id="path1_fill_russia" d="M 48.445 17.3912C 49.45 14.6829 50 11.7536 50 8.69561C 50 5.6376 49.45 2.7083 48.445 0L 1.55498 0C 0.550098 2.7083 0 5.6376 0 8.69561C 0 11.7536 0.550098 14.6829 1.55498 17.3912L 25 19.5651L 48.445 17.3912Z" />
+                    <path id="path2_fill_russia" d="M 23.445 16.3044C 34.1941 16.3044 43.3577 9.52002 46.89 0L 0 0C 3.53232 9.52002 12.6959 16.3044 23.445 16.3044Z" /> </defs>
+                </svg>

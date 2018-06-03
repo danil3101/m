@@ -1,0 +1,13 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Canvas" transform="translate(-1042 -50)">
+                    <g id="japan">
+                      <g id="Oval">
+                        <use xlink:href="#path0_fill_japan" transform="translate(1042 50)" fill="#F0F0F0" /> </g>
+                      <g id="Oval">
+                        <use xlink:href="#path1_fill_japan" transform="translate(1056.13 64.1305)" fill="#D80027" /> </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <path id="path0_fill_japan" d="M 25 50C 38.8071 50 50 38.8071 50 25C 50 11.1929 38.8071 0 25 0C 11.1929 0 0 11.1929 0 25C 0 38.8071 11.1929 50 25 50Z" />
+                    <path id="path1_fill_japan" d="M 10.8695 21.7391C 16.8726 21.7391 21.7391 16.8726 21.7391 10.8695C 21.7391 4.86646 16.8726 0 10.8695 0C 4.86646 0 0 4.86646 0 10.8695C 0 16.8726 4.86646 21.7391 10.8695 21.7391Z" /> </defs>
+</svg>

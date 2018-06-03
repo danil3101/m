@@ -1,0 +1,24 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ukraine</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-27 -12732)">
+<g id="ukraine">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Clip 2">
+<use xlink:href="#path0_fill" transform="translate(27.007 12732)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Fill 1" mask="url(#mask0_outline)">
+<use xlink:href="#path1_fill" transform="translate(27 12732)" fill="#FFDA44"/>
+</g>
+<g id="Fill 3" mask="url(#mask0_outline)">
+<use xlink:href="#path2_fill" transform="translate(27 12732)" fill="#338AF3"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.61894e-18 0L 1.61894e-18 47.7828L 47.7758 47.7828L 47.7758 0L 1.61894e-18 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 47.7828 23.8914C 47.7828 37.0859 37.0859 47.7828 23.8914 47.7828C 10.6964 47.7828 0 37.0859 0 23.8914C 0 10.6964 10.6964 0 23.8914 0C 37.0859 0 47.7828 10.6964 47.7828 23.8914Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 23.8914C 0 10.6964 10.6964 0 23.8914 0C 37.0859 0 47.7828 10.6964 47.7828 23.8914"/>
+</defs>
+</svg>

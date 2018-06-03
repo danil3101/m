@@ -1,0 +1,27 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Canvas" transform="translate(-978 -50)">
+                    <g id="china">
+                      <g id="Oval">
+                        <use xlink:href="#path0_fill_china" transform="translate(978 50)" fill="#D80027" /> </g>
+                      <g id="Group">
+                        <g id="Shape">
+                          <use xlink:href="#path1_fill_china" transform="translate(982.541 65.2148)" fill="#FFDA44" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path2_fill_china" transform="translate(1003.31 81.875)" fill="#FFDA44" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path3_fill_china" transform="translate(1009.56 76.2109)" fill="#FFDA44" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path4_fill_china" transform="translate(1009.28 67.7441)" fill="#FFDA44" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path5_fill_china" transform="translate(1003.28 61.2207)" fill="#FFDA44" /> </g>
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <path id="path0_fill_china" d="M 25 50C 38.8071 50 50 38.8071 50 25C 50 11.1929 38.8071 0 25 0C 11.1929 0 0 11.1929 0 25C 0 38.8071 11.1929 50 25 50Z" />
+                    <path id="path1_fill_china" d="M 9.14062 0L 11.2988 6.64062L 18.2812 6.64062L 12.6367 10.752L 14.7949 17.3926L 9.14062 13.291L 3.48633 17.3926L 5.6543 10.752L 0 6.64062L 6.98242 6.64062L 9.14062 0Z" />
+                    <path id="path2_fill_china" d="M 4.32617 6.8457L 2.67578 4.81445L 0.234375 5.76172L 1.65039 3.56445L 0 1.52344L 2.5293 2.19727L 3.95508 0L 4.0918 2.61719L 6.63086 3.29102L 4.17969 4.22852L 4.32617 6.8457Z" />
+                    <path id="path3_fill_china" d="M 1.35742 6.55273L 2.13867 4.05273L 0 2.53906L 2.61719 2.5L 3.38867 0L 4.23828 2.48047L 6.85547 2.45117L 4.75586 4.01367L 5.5957 6.49414L 3.45703 4.98047L 1.35742 6.55273Z" />
+                    <path id="path4_fill_china" d="M 6.06445 0.605469L 4.91211 2.95898L 6.78711 4.78516L 4.19922 4.41406L 3.04688 6.75781L 2.59766 4.17969L 0 3.80859L 2.32422 2.58789L 1.875 0L 3.75 1.82617L 6.06445 0.605469Z" />
+                    <path id="path5_fill_china" d="M 4.42383 0L 4.22852 2.60742L 6.66016 3.59375L 4.11133 4.21875L 3.92578 6.83594L 2.54883 4.60938L 0 5.23438L 1.68945 3.23242L 0.302734 1.01562L 2.73438 2.00195L 4.42383 0Z" /> </defs>
+                </svg>

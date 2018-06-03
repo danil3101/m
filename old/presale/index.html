@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mondo</title>
+  <meta name="description" content="Find any contact / service / work, ask for any help in any place in the world.">
+  
+  
+  <meta name="viewport" content="width=900">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/nanum_ghot/stylesheet.css">
+  <link rel="stylesheet" href="fonts/avnr-nxt/stylesheet.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/skeleton.min.css">
+  <link rel="stylesheet" href="css/kstn.min.css">
+  <link rel="stylesheet" href="css/presale.css">
+</head>
+<body>
+  <header style="height:80px">
+  </header>
+  <section class="container main presale">
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="change-this-text">I confirm that i'm not neither United States citizen nor resident or resident, have not a primary residence or domicile in the United Stated, including Puerto Rico, the U.S. Virgin Islands and any other possessions of the United States and i'm not purchasing MND tokens or signing on behalf of United States citizen, resident or entity.<br>
+I confirm that i have also read and understand the Terms of Token Sale and expressly accept all terms, conditions, obligations, affirmations, representations and warranties described in these Terms and agree to be bound by them.
+I confirm that i have read and understand the Mondo White Paper</p>
+    <p>
+    <p id="wallet" class="show-this-later">0x0c6c78e9D5576818e6638E198bFf0ce9764098b1</p>
+    <button class="show-this-later" onclick="copyToClipboard('#wallet')">Copy to cliproard</button></p>
+<button class="change-this-text" id="apply-terms">Apply</button> 
+<button class="change-this-text" onclick="modal.style.display = 'none'">Decline</button>
+  </div>
+
+</div>
+    <div class="row">
+      <h2>mondo.one</h2>
+      <p>Mondo pre-ICO 1 will begin<br> 16.08.2017 10:00 am (GMT+3) and last 1 weeks.</p>
+        <p>Pre-sale ends:</p>
+        <h2 id="timer" style="margin-top:-40px"></h2>
+
+    </div>
+    <div class="row text-center">
+    <button class="button contract-adress" id="myBtn" href="" target="">Get contract address</button>
+  </div>
+  <div class="row links">
+    <a href="https://medium.com/@mondoone/mondo-mnd-token-distribution-8172a59c1beb"><p class="inline-p">Token distribution</p></a><a href="/mondowp.pdf"><p class="inline-p">Whitepaper</p></a>
+  </div>
+  <!--<p id="percent-finished"></p>-->
+ <!-- <div class="row" style="height:120px">
+  </div>-->
+  <div class="row">
+    <p class="inline-p three columns" id="progress"></p><p class="inline-p three columns" id="total-supply"></p> <p class="inline-p three columns" id="token-cap"></p>
+  </div>
+  <div class="logo">
+          <h1>Mondo</h1>
+          <a href="/">
+            <svg width="142" height="78" viewBox="0 0 142 78" version="1.1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink">
+              <title>Mondo</title>
+              <desc>Logo</desc>
+              <g id="Canvas" transform="translate(80 24)">
+                <g id="logo copy">
+                  <g id="Triangle">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mondo_logo" transform="matrix(-0.0697565 0.997564 -0.997564 -0.0697565 7.31792 -19.9826)" fill="url(#paint0_linear)"></use> </g>
+                  <g id="Triangle Copy">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mondo_logo" transform="matrix(0.0697565 0.997564 0.997564 -0.0697565 -25.3482 -19.9826)" fill="url(#paint1_linear)" style="mix-blend-mode:multiply"></use> </g>
+                </g>
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 81.0469 -78.1892 0 39.5502 0)">
+                  <stop offset="0" stop-color="#843CF7"></stop>
+                  <stop offset="1" stop-color="#38B8F2"></stop> </linearGradient>
+                <linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 81.9914 -79.1004 0 39.5502 0)">
+                  <stop offset="0" stop-color="#38B8F2"></stop>
+                  <stop offset="1" stop-color="#843CF7"></stop> </linearGradient>
+                <path id="mondo_logo" fill-rule="evenodd" d="M 24.8842 0.0494032C 35.2205 1.90251 82.9048 69.7082 78.8572 79.3991C 74.8097 89.09 6.936 69.2155 1.0822 59.1231C -4.77159 49.0307 14.548 -1.80371 24.8842 0.0494032Z"></path> </defs>
+            </svg>
+          </a>
+        </div>
+  </div>
+</div> <!-- popup -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/pupup.js"></script>
+  <script src="js/popup.js"></script>
+  <script src='js/theater.min.js'></script>
+  <script src="js/scene.min.js"></script>
+  <script type="text/javascript">
+    $('#typing_sch').on('click', function(event) {
+      event.preventDefault();
+      $('.scene').addClass('displaynone');
+    });
+  </script>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 23, 2017 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  days = String(days).length >= 2 ? days : "0" + days;
+  hours = String(hours).length >= 2 ? hours : "0" + hours;
+  minutes = String(minutes).length >= 2 ? minutes : "0" + minutes;
+  seconds = String(seconds).length >= 2 ? seconds : "0" + seconds;
+  // Display the result in the element with id="demo"
+  document.getElementById("timer").innerHTML = days + " : " + hours + " : "
+  + minutes + " : " + seconds;
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  <!-- Timer  <script src="js/timer.min.js"></script>-->
+  <!-- Video <script src="js/video.min.js"></script>--> 
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45537558 = new Ya.Metrika({
+                    id:45537558,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45537558" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

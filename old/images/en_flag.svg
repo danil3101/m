@@ -1,0 +1,53 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Canvas" transform="translate(-914 -50)">
+                    <g id="united-kingdom">
+                      <g id="Oval">
+                        <use xlink:href="#united-kingdom" transform="translate(914 50)" fill="#F0F0F0" /> </g>
+                      <g id="Group">
+                        <g id="Shape">
+                          <use xlink:href="#path1_fill" transform="translate(914.861 59.7795)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path2_fill" transform="translate(950.133 59.7796)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path3_fill" transform="translate(914.861 81.5219)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path4_fill" transform="translate(945.522 50.8612)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path5_fill" transform="translate(923.779 86.1333)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path6_fill" transform="translate(923.779 50.8612)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path7_fill" transform="translate(945.522 86.1333)" fill="#0052B4" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path8_fill" transform="translate(950.133 81.5219)" fill="#0052B4" /> </g>
+                      </g>
+                      <g id="Group">
+                        <g id="Shape">
+                          <use xlink:href="#path9_fill" transform="translate(914 50)" fill="#D80027" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path10_fill" transform="translate(945.522 81.5218)" fill="#D80027" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path11_fill" transform="translate(921.322 81.5219)" fill="#D80027" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path12_fill" transform="translate(919.853 57.3223)" fill="#D80027" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path13_fill" transform="translate(945.522 55.8529)" fill="#D80027" /> </g>
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <path id="united-kingdom" d="M 25 50C 38.8071 50 50 38.8071 50 25C 50 11.1929 38.8071 0 25 0C 11.1929 0 0 11.1929 0 25C 0 38.8071 11.1929 50 25 50Z" />
+                    <path id="path1_fill" d="M 4.30674 0C 2.34297 2.55498 0.862207 5.4998 0 8.69893L 13.0057 8.69893L 4.30674 0Z" />
+                    <path id="path2_fill" d="M 13.0055 8.69883C 12.1433 5.4998 10.6624 2.55498 8.69873 0L 0 8.69883L 13.0055 8.69883Z" />
+                    <path id="path3_fill" d="M 0 0C 0.862305 3.19902 2.34307 6.14385 4.30674 8.69873L 13.0054 0L 0 0Z" />
+                    <path id="path4_fill" d="M 8.69883 4.30684C 6.14385 2.34307 3.19912 0.862305 0 0L 0 13.0056L 8.69883 4.30684Z" />
+                    <path id="path5_fill" d="M 0 8.69863C 2.55498 10.6624 5.4998 12.1432 8.69883 13.0055L 8.69883 0L 0 8.69863Z" />
+                    <path id="path6_fill" d="M 8.69873 0C 5.49971 0.862305 2.55488 2.34307 0 4.30674L 8.69873 13.0055L 8.69873 0Z" />
+                    <path id="path7_fill" d="M 0 13.0055C 3.19902 12.1432 6.14385 10.6624 8.69873 8.69873L 0 0L 0 13.0055Z" />
+                    <path id="path8_fill" d="M 0 0L 8.69873 8.69883C 10.6624 6.14394 12.1433 3.19902 13.0055 0L 0 0Z" />
+                    <path id="path9_fill" d="M 49.7884 21.7392L 28.261 21.7392L 28.2609 21.7392L 28.2609 0.211621C 27.1935 0.0726562 26.1052 0 25 0C 23.8946 0 22.8065 0.0726562 21.7392 0.211621L 21.7392 21.739L 21.7392 21.7391L 0.211621 21.7391C 0.0726562 22.8065 0 23.8948 0 25C 0 26.1054 0.0726562 27.1935 0.211621 28.2608L 21.739 28.2608L 21.7391 28.2608L 21.7391 49.7884C 22.8065 49.9273 23.8946 50 25 50C 26.1052 50 27.1935 49.9274 28.2608 49.7884L 28.2608 28.261L 28.2608 28.2609L 49.7884 28.2609C 49.9273 27.1935 50 26.1054 50 25C 50 23.8948 49.9273 22.8065 49.7884 21.7392Z" />
+                    <path id="path10_fill" d="M 0 9.76563e-05L 11.1559 11.156C 11.6689 10.6431 12.1584 10.1068 12.6254 9.55098L 3.07441 0L 0 0L 0 9.76563e-05Z" />
+                    <path id="path11_fill" d="M 11.156 0L 11.1558 0L 0 11.1558C 0.512891 11.6688 1.04912 12.1583 1.60498 12.6253L 11.156 3.07412L 11.156 0Z" />
+                    <path id="path12_fill" d="M 12.6254 11.1562L 12.6254 11.156L 1.46953 0C 0.956445 0.512891 0.466992 1.04912 0 1.60498L 9.55107 11.1561L 12.6254 11.1561L 12.6254 11.1562Z" />
+                    <path id="path13_fill" d="M 5.55112e-15 12.6255L 11.156 1.46943C 10.6431 0.956348 10.1068 0.466895 9.55098 0L 0 9.55107L 0 12.6255L 5.55112e-15 12.6255Z" /> </defs>
+                </svg>

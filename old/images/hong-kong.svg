@@ -1,0 +1,42 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>hong-kong</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-520 -13799)">
+<g id="hong-kong">
+<g id="Group 3">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Clip 2">
+<use xlink:href="#path0_fill" transform="translate(520.007 13799)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Fill 1" mask="url(#mask0_outline)">
+<use xlink:href="#path1_fill" transform="translate(520 13799)" fill="#D80027"/>
+</g>
+</g>
+<g id="Fill 4">
+<use xlink:href="#path2_fill" transform="translate(540.469 13810.7)" fill="#F3F3F3"/>
+</g>
+<g id="Fill 5">
+<use xlink:href="#path3_fill" transform="translate(532.543 13816.4)" fill="#F3F3F3"/>
+</g>
+<g id="Fill 6">
+<use xlink:href="#path4_fill" transform="translate(534.462 13824.3)" fill="#F3F3F3"/>
+</g>
+<g id="Fill 7">
+<use xlink:href="#path5_fill" transform="translate(544.774 13824.5)" fill="#F3F3F3"/>
+</g>
+<g id="Fill 8">
+<use xlink:href="#path6_fill" transform="translate(546.039 13817.2)" fill="#F3F3F3"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.62472e-18 0L 1.62472e-18 47.8367L 47.9464 47.8367L 47.9464 0L 1.62472e-18 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 47.9534 23.9184C 47.9534 37.1277 37.2183 47.8367 23.9767 47.8367C 10.7346 47.8367 0 37.1277 0 23.9184C 0 10.7084 10.7346 0 23.9767 0C 37.2183 0 47.9534 10.7084 47.9534 23.9184Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 5.9836 6.455C 5.43851 8.7159 4.47043 8.28484 3.99523 10.2565C 1.19648 9.58539 -0.527189 6.77745 0.145513 3.98551C 0.818215 1.19357 3.63301 -0.525907 6.43176 0.145159C 5.48147 4.08863 6.47109 4.43304 5.9836 6.455Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 6.6467 2.37547C 8.63378 3.59077 7.9235 4.37641 9.6563 5.43661C 8.15133 7.88461 4.94235 8.65191 2.48838 7.15107C 0.0344083 5.64964 -0.735348 2.448 0.769745 0C 4.23523 2.12053 4.86918 1.28794 6.6467 2.37547Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 4.08023 1.90972C 5.85319 0.400117 6.38236 1.31667 7.92855 0C 9.79762 2.18429 9.53737 5.46628 7.34821 7.3308C 5.1586 9.19486 1.8686 8.93524 0 6.75142C 3.0919 4.11819 2.49424 3.25956 4.08023 1.90972Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 0.63161 4.63743C -0.260137 2.48923 0.777015 2.27025 0 0.396617C 2.65979 -0.701544 5.70872 0.558953 6.80944 3.21227C 7.91028 5.86605 6.64624 8.9071 3.98646 10.0051C 2.43208 6.25787 1.42864 6.55942 0.63161 4.63743Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 4.25508 6.31812C 1.93094 6.50019 2.04251 5.44816 0.0162108 5.60688C -0.208804 2.74416 1.93504 0.241041 4.80521 0.0161062C 7.6749 -0.207894 10.1837 1.93085 10.4087 4.79392C 6.35549 5.111 6.33313 6.15567 4.25508 6.31812Z"/>
+</defs>
+</svg>

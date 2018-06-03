@@ -1,0 +1,22 @@
+<svg width="68" height="68" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>mute</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-43 -2028)">
+<g id="mute">
+<g id="Shape">
+<use xlink:href="#path0_fill" transform="translate(69.7142 2030.06)" fill="#FFFFFF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(48.0845 2047.47)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle-path">
+<use xlink:href="#path2_fill" transform="matrix(0.707107 -0.707107 0.707107 0.707107 43.0719 2032.1)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 12.6208L 3.82212 16.4506L 13.6091 9.89359L 13.6091 26.2571L 18.9079 31.5666L 18.9079 0L 0 12.6208Z"/>
+<path id="path1_fill" d="M 35.2388 21.1507L 35.2388 36.5278L 17.4022 24.6034L 16.0703 23.7038L 14.4778 23.7038L 5.29884 23.7038L 5.29884 5.30944L 14.4778 5.30944L 16.0703 5.30944L 17.4022 4.41007L 18.0682 3.97487L 14.1303 0L 0 0L 0 29.0134L 14.4778 29.0134L 40.5376 46.4214L 40.5376 26.4602L 35.2388 21.1507Z"/>
+<path id="path2_fill" d="M 0 0L 5.79107 0L 5.79107 90.26L 0 90.26L 0 0Z"/>
+</defs>
+</svg>

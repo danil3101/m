@@ -1,0 +1,15 @@
+<svg width="73" height="40" viewBox="0 0 73 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(-15 -4402)">
+<g id="logo">
+<g id="Triangle" opacity="0.833673">
+<use xlink:href="#path0_fill_logo_white" transform="matrix(-0.0697565 0.997564 -0.997564 -0.0697565 60.1776 4404.4)" fill="#FFFFFF"/>
+</g>
+<g id="Triangle Copy">
+<use xlink:href="#path0_fill_logo_white" transform="matrix(0.0697565 0.997564 0.997564 -0.0697565 43.0577 4404.4)" fill="#FFFFFF" style="mix-blend-mode:soft-light"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill_logo_white" fill-rule="evenodd" d="M 12.7287 0.0255186C 18.0159 0.982718 42.4073 36.0069 40.3368 41.0126C 38.2664 46.0183 3.54788 35.7524 0.553565 30.5393C -2.44075 25.3262 7.44155 -0.931681 12.7287 0.0255186Z"/>
+</defs>
+</svg>

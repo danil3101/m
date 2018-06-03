@@ -1,0 +1,32 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>medium</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-96 -13250)">
+<g id="medium">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Clip 2">
+<use xlink:href="#path0_fill" transform="translate(96.0076 13250)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Fill 1" mask="url(#mask0_outline)">
+<use xlink:href="#path1_fill" transform="translate(129.055 13250.4)" fill="#68B973"/>
+</g>
+<g id="Fill 3" mask="url(#mask0_outline)">
+<use xlink:href="#path2_fill" transform="translate(112.615 13250)" fill="#54B263"/>
+</g>
+<g id="Fill 4" mask="url(#mask0_outline)">
+<use xlink:href="#path3_fill" transform="translate(97.3173 13251)" fill="#3DAD63"/>
+</g>
+<g id="Fill 5" mask="url(#mask0_outline)">
+<use xlink:href="#path4_fill" transform="translate(96 13250.2)" fill="#00A366"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.03943e-15 49.9473L 1.03943e-15 0L 49.6568 0L 49.6568 49.9473L 1.03943e-15 49.9473Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 15.4112 49.4761L 0.115226 40.7612L 6.46733e-06 1.25526C -0.00264371 0.333017 0.809698 -0.274682 1.51098 0.124967L 16.0122 8.38955C 16.3773 8.5976 16.6095 9.03539 16.6095 9.5155L 16.6095 48.5831C 16.6094 49.3131 15.9662 49.7925 15.4112 49.4761Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 16.5548 41.1332L 0 31.6996L 15.9374 0.600948C 16.2189 0.0515815 16.8064 -0.154973 17.2952 0.123524L 31.9991 8.50372C 32.5612 8.8241 32.767 9.64957 32.4421 10.2805L 16.5548 41.1332Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 31.8528 40.1854L 15.298 30.7518L 0.124011 1.46653C -0.298755 0.650627 0.436858 -0.315439 1.1649 0.0994655L 15.298 8.1542L 31.8528 40.1854Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 15.417 49.65L 0.47375 41.1336C 0.184124 40.9684 0 40.6213 0 40.2405L 0 0.960829C 0 0.253966 0.623044 -0.210445 1.16065 0.0960216L 16.6153 8.90399L 16.6153 48.7569C 16.6153 49.487 15.972 49.9664 15.417 49.65Z"/>
+</defs>
+</svg>

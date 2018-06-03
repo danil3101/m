@@ -1,0 +1,162 @@
+html {
+	font-size: 10px;
+	font-family: "Comfortaa", sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*    begin style for header   */
+
+h1 {
+	font-size: 3rem;
+	font-weight: normal;
+	color: #647CB7;
+	display: inline-flex;
+	align-items: center;
+	padding-bottom: 5px;
+}
+
+.logo {
+	display: flex;
+	height: 70px;
+}
+
+.list-nav {
+	display: flex;
+	width: calc(100% - 180px);
+	list-style: none;
+	height: 68px;
+	font-size: 2.2rem;
+	color: #B1B1B4;
+	text-transform: capitalize;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.desktop-nav {
+	max-width: 538px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bg-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.list-nav__item {
+	cursor: pointer;
+}
+
+.list-nav__item a {
+	color: #B1B1B4;
+	text-decoration: none;
+}
+
+.active-nav__item a {
+	color: #000;
+}
+
+.header {
+	display: flex;
+	padding-top: 56px;
+	justify-content: space-between;
+	position: relative;
+	padding-left: 47px;
+	padding-right: 44px;
+}
+
+.lang-btn {
+	list-style: none;
+	cursor: pointer;
+	border: none;
+	transition: .4s;
+	display: flex;
+	padding: 14px;
+	outline: none;
+	width: 180px;
+	user-select: none;
+	background: #EBEFF3;
+	border-radius: 11px;
+	flex-wrap: wrap;
+}
+
+.lang__item {
+	align-items: center;
+	display: flex;
+	max-height: 63px;
+	height: 31px;
+	margin-top: 6px;
+}
+
+.language {
+	font-weight: bold;
+	font-size: 2.2rem;
+	color: #B1B1B4;
+	padding-left: 11px;
+}
+
+.m-nav {
+	display: none;
+	z-index: 2;
+}
+
+.m-nav__btn {
+	width: 79px;
+	height: 39px;
+	background: #657CB7;
+	border: 3px solid #FFFFFF;
+	border-radius: 7px;
+	outline: none;
+	cursor: pointer;
+}
+
+.m-nav__btn span {
+	color: #fff;
+	font-size: 2.2rem;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.open_lang {
+	display: none;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1060px) {
+	.m-nav {
+		display: flex;
+	}
+
+	.desktop-nav {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.header {
+		flex-direction: column;
+		padding-left: 11px;
+
+	}
+
+	.logo {
+		min-width: 420px;
+	}
+
+	.m-nav {
+		padding-top: 26px;
+		min-width: 420px;
+		justify-content: flex-end;
+	}
+}
+
+
+
+/*    finish style for header   */

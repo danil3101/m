@@ -1,0 +1,25 @@
+<svg width="142" height="78" viewBox="0 0 142 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Mondo</title>
+            <desc>Logo</desc>
+            <g id="Canvas" transform="translate(80 24)">
+            <g id="logo copy">
+            <g id="Triangle">
+            <use xlink:href="#mondo_logo" transform="matrix(-0.0697565 0.997564 -0.997564 -0.0697565 7.31792 -19.9826)" fill="url(#paint0_linear)"/>
+            </g>
+            <g id="Triangle Copy">
+            <use xlink:href="#mondo_logo" transform="matrix(0.0697565 0.997564 0.997564 -0.0697565 -25.3482 -19.9826)" fill="url(#paint1_linear)" style="mix-blend-mode:multiply"/>
+            </g>
+            </g>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 81.0469 -78.1892 0 39.5502 0)">
+            <stop offset="0" stop-color="#843CF7"/>
+            <stop offset="1" stop-color="#38B8F2"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 81.9914 -79.1004 0 39.5502 0)">
+            <stop offset="0" stop-color="#38B8F2"/>
+            <stop offset="1" stop-color="#843CF7"/>
+            </linearGradient>
+            <path id="mondo_logo" fill-rule="evenodd" d="M 24.8842 0.0494032C 35.2205 1.90251 82.9048 69.7082 78.8572 79.3991C 74.8097 89.09 6.936 69.2155 1.0822 59.1231C -4.77159 49.0307 14.548 -1.80371 24.8842 0.0494032Z"/>
+            </defs>
+      </svg>

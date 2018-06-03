@@ -1,0 +1,25 @@
+<svg width="252" height="126" viewBox="0 0 252 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(-411 -8120)">
+<g id="logo_cmpnt">
+<g id="Rectangle 15">
+<use xlink:href="#path0_fill_lg_cmpnnt" transform="translate(411 8120)" fill="url(#paint0_linear)"/>
+</g>
+<g id="logo">
+<g id="Triangle" opacity="0.833673">
+<use xlink:href="#path1_fill_lg_cmpnnt" transform="matrix(-0.0697565 0.997564 -0.997564 -0.0697565 552.932 8147.16)" fill="#FFFFFF"/>
+</g>
+<g id="Triangle Copy">
+<use xlink:href="#path1_fill_lg_cmpnnt" transform="matrix(0.0697565 0.997564 0.997564 -0.0697565 520.847 8147.16)" fill="#FFFFFF" style="mix-blend-mode:soft-light"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(88.4023 255.572 -512.255 44.1053 87.7638 -46.1437)">
+<stop offset="0" stop-color="#7CCCF9"/>
+<stop offset="1" stop-color="#5A73ED"/>
+</linearGradient>
+<path id="path0_fill_lg_cmpnnt" fill-rule="evenodd" d="M 0 25C 0 11.1929 11.1929 0 25 0L 226.116 0C 239.923 0 251.116 11.1929 251.116 25L 251.116 100.286C 251.116 114.093 239.923 125.286 226.116 125.286L 25 125.286C 11.1929 125.286 0 114.093 0 100.286L 0 25Z"/>
+<path id="path1_fill_lg_cmpnnt" fill-rule="evenodd" d="M 24.2944 0.0483489C 34.3857 1.86191 80.9399 68.2207 76.9882 77.7048C 73.0366 87.1889 6.7716 67.7385 1.05655 57.8614C -4.6585 47.9844 14.2032 -1.76522 24.2944 0.0483489Z"/>
+</defs>
+</svg>

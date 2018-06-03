@@ -1,0 +1,18 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Canvas" transform="translate(-1170 -50)">
+                    <g id="spain">
+                      <g id="Shape">
+                        <use xlink:href="#path0_fill_spain" transform="translate(1170 64.1305)" fill="#FFDA44" /> </g>
+                      <g id="Group">
+                        <g id="Shape">
+                          <use xlink:href="#path1_fill_spain" transform="translate(1171.55 50)" fill="#D80027" /> </g>
+                        <g id="Shape">
+                          <use xlink:href="#path2_fill_spain" transform="translate(1171.55 83.6956)" fill="#D80027" /> </g>
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <path id="path0_fill_spain" d="M 0 10.8695C 0 13.9275 0.550098 16.8568 1.55498 19.5651L 25 21.7391L 48.445 19.5651C 49.4499 16.8568 50 13.9275 50 10.8695C 50 7.81152 49.4499 4.88223 48.445 2.17393L 25 0L 1.55498 2.17393C 0.550098 4.88223 0 7.81152 0 10.8695Z" />
+                    <path id="path1_fill_spain" d="M 46.89 16.3044C 43.3577 6.78447 34.1941 0 23.445 0C 12.6959 0 3.53232 6.78447 0 16.3044L 46.89 16.3044Z" />
+                    <path id="path2_fill_spain" d="M 0 0C 3.53232 9.51992 12.6959 16.3044 23.445 16.3044C 34.1941 16.3044 43.3577 9.51992 46.89 0L 0 0Z" /> </defs>
+                </svg>
