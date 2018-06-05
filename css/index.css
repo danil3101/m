@@ -1,0 +1,298 @@
+html {
+	font-size: 10px;
+	font-family: "Comfortaa", sans-serif;
+}
+
+body {
+	background-color: #F1F8FF;
+	height: 1500px;
+	overflow-x: hidden;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+/*    begin style for header   */
+
+h1 {
+	font-size: 3rem;
+	font-weight: normal;
+	color: #647CB7;
+	display: inline-flex;
+	align-items: center;
+	padding-bottom: 5px;
+}
+
+.logo {
+	display: flex;
+	height: 70px;
+}
+
+.list-nav {
+	display: flex;
+	width: calc(100% - 180px);
+	list-style: none;
+	height: 68px;
+	font-size: 2.2rem;
+	color: #B1B1B4;
+	text-transform: capitalize;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.desktop-nav {
+	max-width: 538px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bg-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.list-nav__item {
+	cursor: pointer;
+}
+
+.list-nav__item a {
+	color: #B1B1B4;
+	text-decoration: none;
+}
+
+.active-nav__item {
+	color: #000 !important;
+}
+
+.header {
+	background-color: #fff;
+	display: flex;
+	padding-top: 56px;
+	justify-content: space-between;
+	position: relative;
+	padding-left: 47px;
+	padding-right: 44px;
+	padding-bottom: 70px;
+	z-index: 2;
+}
+
+.lang-btn {
+	position: relative;
+	list-style: none;
+	cursor: pointer;
+	border: none;
+	transition: .4s;
+	display: flex;
+	padding: 14px;
+	outline: none;
+	width: 180px;
+	user-select: none;
+	background: #EBEFF3;
+	border-radius: 11px;
+	flex-wrap: wrap;
+}
+
+.lang__item {
+	align-items: center;
+	display: flex;
+	max-height: 63px;
+	height: 31px;
+	margin-top: 6px;
+}
+
+.language {
+	font-weight: bold;
+	font-size: 2.2rem;
+	color: #B1B1B4;
+	padding-left: 11px;
+}
+
+.m-nav {
+	display: none;
+	z-index: 2;
+}
+
+.m-nav__btn {
+	width: 79px;
+	height: 39px;
+	background: #657CB7;
+	border: 3px solid #FFFFFF;
+	border-radius: 7px;
+	outline: none;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.m-nav__btn span {
+	color: #fff;
+	font-size: 2.2rem;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.open_lang {
+	display: none;
+	flex-wrap: wrap;
+}
+
+.m-menu {
+	z-index: 99;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+	top: -1000px;
+	transition: top 1s;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(70,111,155,.9);
+}
+
+.m-menu ul {
+	z-index: 99;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.m-menu ul li {
+	z-index: 99;
+	margin-top: 15px;
+}
+
+.m-list-nav {
+	display: flex;
+	font-size: 2.5rem;
+	color: #B1B1B4;
+	text-transform: capitalize;
+	justify-content: center;
+}
+
+.m-menu-lang {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.rotate {
+	z-index: -10;
+	position: absolute;
+	width: 2319.97px;
+	height: 1841.89px;
+	left: -90px;
+	top: -1235px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.25);
+	transform: rotate(-37.31deg);
+}
+
+@media screen and (max-width: 1060px) {
+	.m-nav {
+		display: flex;
+	}
+
+	.desktop-nav {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.header {
+		flex-direction: column;
+		padding-left: 11px;
+
+	}
+
+	.logo {
+		min-width: 420px;
+	}
+
+	.m-nav {
+		padding-top: 26px;
+		min-width: 420px;
+		justify-content: flex-end;
+	}
+}
+
+
+
+/*    finish style for header   */
+
+/*    Start style for .new-are */
+
+.new-are {
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	z-index: 2;
+	justify-content: space-around;
+}
+
+.text-block {
+	z-index: 10;
+	max-width: 426px;
+	padding-top: 69px;
+	z-index: 1;
+}
+
+.text-block__title {
+	font-weight: bold;
+	line-height: 5.5rem;
+	font-size: 3.4rem;
+	color: #657CB7;
+	z-index: 2;
+}
+
+.text-block__p {
+	font-weight: bold;
+	line-height: normal;
+	font-size: 2.1rem;
+	color: #708EB2;
+	z-index: 2;
+}
+
+.text-block__links-notify {
+	display: inline-flex;
+	background: #6580C5;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 24px;
+	width: 229px;
+	height: 63px;
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin-right: 15px;
+	color: #fff;
+	z-index: 2;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-block__links {
+	margin-top: 20px;
+	z-index: 2;
+}
+
+.text-block__links-release {
+ 	font-weight: bold;
+	line-height: normal;
+	font-size: 22px;
+	color: #6580C5;
+	z-index: 2;
+ }
+
+ .bg-animate {
+ 	border: 1px solid red;
+ }
+
+
+/*    Finish style for .new-are */

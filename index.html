@@ -5,11 +5,12 @@
 	<title>mondo.one</title>
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Ubuntu:700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="wrapper">
+		<div class="rotate"></div>
 		<header class="header">
 			<div class="logo">
 				<img src="img/Vector.svg" alt="" class="bg-img">
@@ -18,7 +19,7 @@
 			</div>
 			<nav class="desktop-nav">
 				<ul class="list-nav">
-					<li class="list-nav__item active-nav__item"><a href="#">home</a></li>
+					<li class="list-nav__item"><a class="active-nav__item" href="#">home</a></li>
 					<li class="list-nav__item"><a href="#">token</a></li>
 					<li class="list-nav__item"><a href="#">blog</a></li>
 					<li class="list-nav__item"><a href="#">contacts</a></li>
@@ -49,13 +50,57 @@
 				</ul>
 			</nav>
 			<nav class="m-nav">
+				<div class="m-menu">
+					<ul>
+						<li><a class="m-list-nav active-nav__item" href="#">home</a></li>
+						<li><a class="m-list-nav" href="#">token</a></li>
+						<li><a class="m-list-nav" href="#">blog</a></li>
+						<li><a class="m-list-nav" href="#">contacts</a></li>
+						<li class="m-menu-lang">
+							<img src="img/united-kingdom.svg" alt="">
+						<span class="language">English</span>
+						</li>
+						<li class="m-menu-lang">
+							<img src="img/chine.svg" alt="">
+							<span class="language">Chinese</span>
+						</li>
+						<li class="m-menu-lang">
+							<img src="img/russia.svg" alt="">
+							<span class="language">Russian</span>
+						</li>
+						<li class="m-menu-lang">
+							<img src="img/japan.svg" alt="">
+							<span class="language">Japanese</span>
+						</li>
+						<li class="m-menu-lang">
+							<img src="img/korea.svg" alt="">
+							<span class="language">Korean</span>
+						</li>
+					</ul>
+				</div>
 				<button class="m-nav__btn">
 					<img src="img/burg.svg" alt="" class="burg">
 					<span>EN</span>
 				</button>
 			</nav>
 		</header>
+
+		<section class="new-are">
+			<article class="new-are__text-block text-block">
+				<h2 class="text-block__title">New era of freelance</h2>
+				<p class="text-block__p">We started new revolution. Just few steps to find any contact all around the world. You can check public rating</p>
+				<div class="text-block__links">
+					<a href="#" class="text-block__links-notify">Notify me</a>
+					<a href="#" class="text-block__links-release">Release Q2</a>
+				</div>
+			</article>
+			<article class="bg-animate">
+				
+			</article>
+		</section>
 	</div>
-	<script src="js/script.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+	<script src="js/lang.js"></script>
 </body>
 </html>

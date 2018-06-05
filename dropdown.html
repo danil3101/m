@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style>
+div.selectboxss
+{
+	background-color: #EBEFF3;
+	border-radius: 3px;
+	color: #333;
+	cursor: pointer;
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	transition: .3s;
+	width: 180px;
+}
+div.selectboxss .selectboxssvalue
+{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	height: 40px;
+	margin: 0px;
+	padding: 16px 32px 0px 16px;
+	transition: .2s;
+}
+div.selectboxss img.arrowselect
+{
+	padding: 0px 10px 0px 0px;
+	position: absolute;
+	right: 0;
+	width: 21px;
+}
+::-webkit-scrollbar
+{
+	background: transparent;
+	position: absolute;
+	width: 0.5em;
+}
+::-webkit-scrollbar-track
+{
+	background: transparent;
+	position: absolute;
+	z-index: -2;
+}
+::-webkit-scrollbar-thumb
+{
+	background: #888;
+	border-radius: 100px;
+}
+ul.selectboxssmenu
+{
+	background: #fff;
+	display: block;
+	height: 200px;
+	margin: 0px;
+	margin-top: 0px;
+	overflow-x: hidden !important;
+	overflow-y: auto;
+	padding: 0px;
+	position: absolute;
+	transition: .3s;
+	width: 100%;
+}
+ul.selectboxssmenu > li
+{
+	border-radius: 0px;
+	cursor: pointer;
+	display: block;
+	padding: 10px;
+}
+ul.selectboxssmenu > li.selectoption
+{
+	color: gray;
+	padding: 10px;
+}
+ul.selectboxssmenu > li.selectoption:hover
+{
+	background: #e1e1e1;
+	color: #333;
+	transition: .2s;
+}
+.flag-en, .flag-ru, .flag-ch, .flag-ja, .flag-kr
+{
+	display: inline-block;
+	overflow: hidden;
+	text-align: left;
+	width: 47px;
+	height: 31px;
+}
+.selectboxss .flag-en
+{
+	background: url(img/united-kingdom.svg);
+}
+.selectboxss .flag-ru
+{
+	background: url(img/russia.svg);
+}
+.selectboxss .flag-ch
+{
+	background: url(img/chine.svg);
+}
+.selectboxss .flag-ja
+{
+	background: url(img/japan.svg)
+}
+.selectboxss .flag-kr
+{
+	background: url(img/korea.svg) no-repeat;
+}
+
+</style>
+
+
+<div class="selectboxss">
+	<div class="selectboxssvalue">
+		<div class="flag-en"></div>
+		<span>English</span>
+	</div>
+	<ul class="selectboxssmenu">
+		<li class="selectoption selectoption-en"><span class="flag-en"></span>English</li>
+		<li class="selectoption selectoption-ch"><span class="flag-ch"></span>Chinese</li>
+		<li class="selectoption selectoption-ru"><span class="flag-ru"></span>Russian</li>
+		<li class="selectoption selectoption-ja"><span class="flag-ja"></span>Japanese</li>
+		<li class="selectoption selectoption-kr"><span class="flag-kr"></span>Korean</li>
+	</ul>
+</div>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+(function( $ ) {
+	var flag = $(".flag-icon");
+  $.fn.selectbox = function() {
+    var selectDefaultHeight = $('.selectboxss').height();
+        $('.selectboxss .selectboxssvalue').click(function() {
+          var currentHeight = $(this).closest(".selectboxss").height();
+          if (currentHeight < 100 || currentHeight == selectDefaultHeight) {
+              $(this).closest(".selectboxss").height("250px");
+              $(this).find('.arrowselect').attr("style", "border-radius: 1000px;transition: 0.2s;transform: rotate(180deg);padding: 0px 0px 0px 10px;");
+          }
+          if (currentHeight >= 250) {
+            $(this).closest(".selectboxss").height(selectDefaultHeight);
+              $(this).find('.arrowselect').attr("style", "rotate(0deg);padding: 0px 10px 0px 0px;");
+          }
+      });
+      $('li.selectoption').click(function() {
+        $(this).closest(".selectboxss").height(selectDefaultHeight);
+        $(this).closest(".selectboxss").find('.arrowselect').attr("style", "rotate(0deg);padding: 0px 10px 0px 0px;");
+        $(this).closest(".selectboxss").find('.selectboxssvalue span').text($(this).text());
+      });
+
+      $('.selectoption-en').click(function() {
+      	flag.removeClass('flag-ru');
+      	flag.removeClass('flag-ch');
+      	flag.removeClass('flag-kr');
+      	flag.removeClass('flag-ja');
+    	flag.addClass('flag-en');
+      });
+      $('.selectoption-ru').click(function() {
+      	flag.removeClass('flag-ch');
+      	flag.removeClass('flag-kr');
+      	flag.removeClass('flag-ja');
+      	flag.removeClass('flag-en');
+    	flag.addClass('flag-ru');
+      });
+      $('.selectoption-ch').click(function() {
+      	flag.removeClass('flag-kr');
+      	flag.removeClass('flag-ja');
+      	flag.removeClass('flag-en');
+      	flag.removeClass('flag-ru');
+    	flag.addClass('flag-ch');
+      });
+      $('.selectoption-ja').click(function() {
+      	flag.removeClass('flag-ru');
+      	flag.removeClass('flag-ch');
+      	flag.removeClass('flag-en');
+      	flag.removeClass('flag-kr');
+    	flag.addClass('flag-ja');
+      });
+      $('.selectoption-kr').click(function() {
+      	flag.removeClass('flag-ru');
+      	flag.removeClass('flag-ja');
+      	flag.removeClass('flag-ch');
+      	flag.removeClass('flag-en');
+    	flag.addClass('flag-kr');
+      });
+  };
+})( jQuery );
+</script>
+<script> $(document).ready(function(){ $('.selectboxss').selectbox(); }); </script>
+</script>
+</body>
+</html>
